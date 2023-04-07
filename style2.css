@@ -54,3 +54,7 @@ a:hover{
     transition-duration: 1000ms;
     text-decoration: none;
 }
+
+#gn-title{
+    text-align: center;
+}
