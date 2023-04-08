@@ -8,12 +8,12 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html')
 })
 
-app.get('/games/without-control', function(req, res) {
-    res.sendFile(__dirname + '/withoutcontrol.html')
-})
-
 app.get('/games', function(req, res) {
     res.sendFile(__dirname + '/games.html')
+})
+
+app.get('/games/without-control', function(req, res) {
+    res.sendFile(__dirname + '/withoutcontrol.html')
 })
 
 app.listen('4000', function() {
