@@ -12,7 +12,7 @@ app.get('/games', function(req, res) {
     res.sendFile(__dirname + '/games.html')
 })
 
-app.get('/games/without-control', function(req, res) {
+app.get('/without-control', function(req, res) {
     res.sendFile(__dirname + '/withoutcontrol.html')
 })
 
